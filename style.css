@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(171, 196, 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.calculatorBox {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20;
+  background-color:rgb(255, 231, 200) ;
+}
+
+.tip-title{
+    padding: .5rem;
+}
+
+.tipContainer {
+    padding: 1rem;
+}
+
+h1 { 
+    font-size: 1.5rem;
+}

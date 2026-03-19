@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="calculatorBox">
+      <h1>Tip calculator</h1>
+      <div>
+        <label for="initialCost">Enter Cost</label>
+        <input type="text" id="initialCost" />
+      </div>
+      <div class="tip-title">Tip Percentage</div>
+      <div class="tipContainer">
+        <input type="radio" name="tipPercent" id="tip15" value="0.15" />
+        <label for="tip15">15%</label>
+        <input type="radio" name="tipPercent" id="tip18" value="0.18" />
+        <label for="tip18">18%</label>
+        <input type="radio" name="tipPercent" id="tip21" value="0.21" />
+        <label for="tip21">21%</label>
+        <input type="radio" name="tipPercent" id="tip24" value="0.24" />
+        <label for="tip24">24%</label>
+      </div>
+      <p id="tipAmount">Tip amount:</p>
+      <p id="finalCost">Total:</p>
+    </section>
+  </body>
+</html>
