@@ -27,7 +27,7 @@ function calculateTip() {
   tip = tip.toFixed(2);
   totalCost = totalCost.toFixed(2);
   tipAmount.textContent = "Tip amount:" + " " + "$" + tip;
-  finalCost.textContent = "Total" + " " + "$" + totalCost;
+  finalCost.textContent = "Total:" + " " + "$" + totalCost;
 }
 
 // Event listeners
