@@ -1,7 +1,7 @@
 // set one radio input to selected
 document.querySelector("#tip15").checked = true;
 
-// create variables
+// Variables
 let inputBox = document.querySelector("#initialCost");
 let initialCost = 0;
 let tipPercent = 0.15;
